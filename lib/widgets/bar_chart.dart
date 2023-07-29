@@ -94,7 +94,7 @@ class BarChart extends StatelessWidget {
               ),
               Bar(
                 label: 'Sa',
-                c: expenses![6],
+                amountSpent: expenses![6],
                 mostExpensive: mostExpensive,
               ),
             ],
